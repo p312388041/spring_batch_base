@@ -5,11 +5,3 @@ spring:
     password: peng414607
     driver-class-name: oracle.jdbc.OracleDriver
     dbtype: oracle
-  batch:
-    jdbc:
-      initialize-schema: always
-    job:
-      enabled: false
-mybatis:
-  mapper-locations: classpath:mapper/*.xml
-

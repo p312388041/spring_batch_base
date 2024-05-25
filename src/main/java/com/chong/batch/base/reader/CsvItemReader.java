@@ -1,11 +1,9 @@
 package com.chong.batch.base.reader;
 
 import java.io.StringReader;
-
 import org.springframework.batch.item.file.FlatFileItemReader;
 import org.springframework.batch.item.file.LineMapper;
 import org.springframework.core.io.FileSystemResource;
-
 import com.opencsv.CSVReader;
 
 public class CsvItemReader extends FlatFileItemReader<String[]> {
